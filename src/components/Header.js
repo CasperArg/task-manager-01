@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 import { useLocation } from 'react-router-dom'
 import Button from './Button'
+import { FaPlus } from 'react-icons/fa'
 
 const Header = ({ title, onAdd, showAdd }) => {
   const location = useLocation()
@@ -11,7 +12,7 @@ const Header = ({ title, onAdd, showAdd }) => {
       {location.pathname === '/' && (
         <Button 
           color={ showAdd ? 'red' : 'green'} 
-          text={ showAdd ? 'Close' : 'Add'} 
+          text={ showAdd ? 'Cerrar' : <FaPlus/> } 
           onClick={onAdd} 
         />
       )}
@@ -20,7 +21,7 @@ const Header = ({ title, onAdd, showAdd }) => {
 }
 
 Header.defaultProps = {
-  title: 'Task Tracker'
+  title: 'Task Manager'
 }
 
 Header.propTypes = {

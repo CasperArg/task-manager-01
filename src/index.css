@@ -15,7 +15,7 @@ body {
   margin: 30px auto;
   overflow: auto;
   min-height: 300px;
-  border: 1px solid steelblue;
+  border: 2px solid rgb(9, 109, 39);
   padding: 30px;
   border-radius: 5px;
 }
@@ -40,6 +40,9 @@ body {
   font-size: 15px;
   font-family: inherit;
 }
+.boton-simple {
+  background: rgb(100, 53, 175);
+}
 
 .btn:focus {
   outline: none;
@@ -55,14 +58,34 @@ body {
 }
 
 .task {
-  background: #f4f4f4;
+  background: #b8aceb;
   margin: 5px;
   padding: 10px 20px;
   cursor: pointer;
+  border-radius: 10px;
+  position: relative;
 }
 
-.task.reminder {
+/* .task.reminder {
   border-left: 5px solid green;
+} */
+.task.reminder {
+  padding-left: 30px;
+}
+.task .remind {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 100%;
+  background: blue;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 30px;
 }
 
 .task h3 {

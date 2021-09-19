@@ -4,7 +4,11 @@ const Footer = () => {
   return (
     <footer>
       <p>Copyright &copy; 2021</p>
-      <Link to="/about">About</Link>
+      <Link to="/about">
+        <button className="btn boton-simple">
+          Acerca de la app
+        </button>
+      </Link>
     </footer>
   )
 }

@@ -2,27 +2,27 @@
   "tasks": [
     {
       "id": 1,
-      "text": "Doctors Appointment",
-      "day": "Feb 5th at 2:30px",
-      "reminder": true
+      "text": "Hacer las compras",
+      "day": "Lunes",
+      "reminder": false
     },
     {
       "id": 2,
-      "text": "Meeting at School",
-      "day": "Feb 6th at 1:30pm",
-      "reminder": false
-    },
-    {
-      "id": 3,
-      "text": "Play games",
-      "day": "Feb 7th at 2:30px",
+      "text": "Jugar al fútbol",
+      "day": "Miercoles",
       "reminder": true
     },
     {
-      "id": 4,
-      "text": "Eat food",
-      "day": "Feb 9th at 6:30pm",
+      "id": 3,
+      "text": "Almuerzo con el jefe",
+      "day": "Jueves",
       "reminder": false
+    },
+    {
+      "id": 4,
+      "text": "Cortar el pasto",
+      "day": "Sábado",
+      "reminder": true
     }
   ]
 }
